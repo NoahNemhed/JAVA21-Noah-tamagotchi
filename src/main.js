@@ -1,5 +1,6 @@
 import { tamagotchi } from "./modules/tamagotchi.js";
 let intervalID = 0;
+let intervalID2 = 0;
 let tam = new tamagotchi(prompt("enter name"))
 tam.setHappines(5);
 tam.setHealth(5);
